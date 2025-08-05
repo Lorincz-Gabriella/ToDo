@@ -4,7 +4,7 @@ namespace ToDo.Application.DTOs
 {
     public class UpdateToDoItemDTO
     {
-        //meglevo ToDo frissitese
+        //meglevo ToDo frissitese,klienstol jon
         //
         public string Title { get; set; }
         public string Description { get; set; }

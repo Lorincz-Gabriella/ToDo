@@ -1,15 +1,29 @@
-var builder = WebApplication.CreateBuilder(args);
+using Infrastructure.Persistence.Context;
+using Infrastructure.Persistence.Repositories;
+using Microsoft.EntityFrameworkCore;
+using ToDo.Application.Mappings;
+using ToDo.Application.Services;
+using ToDo.Application.Services.Interfaces;
+using ToDo.Application.Validation;
+using ToDo.Core.Interfaces;
+using FluentValidation;
 
-// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("ToDoDBConnectionString");
+builder.Services.AddDbContextFactory<ToDoDBContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddAutoMapper(config => { config.AddProfile(new MappingProfile()); });
+builder.Services.AddValidatorsFromAssemblyContaining<CreateToDoItemValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateToDoItemValidator>();
+builder.Services.AddTransient<IToDoRespository, ToDoRepository>();
+builder.Services.AddTransient<IToDoService, ToDoService>();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

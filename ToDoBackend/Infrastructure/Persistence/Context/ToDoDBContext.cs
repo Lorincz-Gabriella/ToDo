@@ -4,7 +4,7 @@ using ToDo.Core.Entity;
 
 namespace Infrastructure.Persistence.Context
 {
-    public class ToDoDBContext: DbContext //ezzel erjuk el az adatbazist
+    public class ToDoDBContext: DbContext //ezzel erjuk el az adatbazist(adatbazissal kapcsolat)
     {
         public DbSet<ToDoItem> ToDoItems { get; set; }
         public ToDoDBContext(DbContextOptions<ToDoDBContext> options) : base(options) 
@@ -13,8 +13,8 @@ namespace Infrastructure.Persistence.Context
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder); //migracios fajlhoz
-            modelBuilder.Entity<ToDoItem>().HasKey(ToDoItem => ToDoItem.Id);
+            base.OnModelCreating(modelBuilder); //migracios fajlhoz kell
+            modelBuilder.Entity<ToDoItem>().HasKey(ToDoItem => ToDoItem.Id); //tabla szabalyai 
             modelBuilder.Entity<ToDoItem>().Property(ToDoItem => ToDoItem.Title).IsRequired() //nem lehet null
            .HasMaxLength(100);
         }

@@ -6,6 +6,7 @@ C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Core\obj\Debug\net8.0\ToDo.Core.Gene
 C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Core\obj\Debug\net8.0\ToDo.Core.AssemblyInfoInputs.cache
 C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Core\obj\Debug\net8.0\ToDo.Core.AssemblyInfo.cs
 C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Core\obj\Debug\net8.0\ToDo.Core.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Core\obj\Debug\net8.0\ToDo.Core.sourcelink.json
 C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Core\obj\Debug\net8.0\ToDo.Core.dll
 C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Core\obj\Debug\net8.0\refint\ToDo.Core.dll
 C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Core\obj\Debug\net8.0\ToDo.Core.pdb

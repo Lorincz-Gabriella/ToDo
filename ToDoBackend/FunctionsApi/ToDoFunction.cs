@@ -14,6 +14,7 @@ using ToDo.Application.Services.Interfaces;
 
 namespace FunctionsApi;
 
+//endpoint=egy URL-cím, amin keresztül a kliens kérni tud valamit az API-tól
 public class ToDoFunction
 {
     private readonly ILogger<ToDoFunction> _logger;
@@ -122,16 +123,16 @@ public class ToDoFunction
         }
     }
 
-    [Function("UpdateToDo")]
-    public IActionResult UpdateToDo([HttpTrigger(AuthorizationLevel.Anonymous, "patch", Route = "todos/{id}")] HttpRequest req, Guid id)
+    [Function("DeleteToDo")]
+    public IActionResult DeleteToDo([HttpTrigger(AuthorizationLevel.Anonymous, "patch", Route = "todos/{id}")] HttpRequest req, Guid id)
     {
         _logger.LogInformation($"UpdateToDo with {id} processed a request ");
         var item = _service.DeleteToDo(id);
         return new OkObjectResult("true");
     }
 
-    [Function("UpdateToDoAsync")]
-    public async Task<IActionResult> UpdateToDoAsync([HttpTrigger(AuthorizationLevel.Anonymous, "patch", Route = "v2/todos/{id}")] HttpRequest req, Guid id)
+    [Function("DeleteToDoAsync")]
+    public async Task<IActionResult> DeleteToDoAsync([HttpTrigger(AuthorizationLevel.Anonymous, "patch", Route = "v2/todos/{id}")] HttpRequest req, Guid id)
     {
         _logger.LogInformation($"UpdateToDo with {id} processed a request ");
         var item = await _service.DeleteToDoAsync(id);
@@ -139,8 +140,8 @@ public class ToDoFunction
     }
 
 
-    [Function("DeleteToDo")]
-    public async Task<IActionResult> DeleteToDo([HttpTrigger(AuthorizationLevel.Anonymous, "delete", Route = "todos/{id}")] HttpRequest req, Guid id)
+    [Function("UpdateToDo")]
+    public async Task<IActionResult> UpdateToDo([HttpTrigger(AuthorizationLevel.Anonymous, "delete", Route = "todos/{id}")] HttpRequest req, Guid id)
     {
         try
         {
@@ -166,8 +167,8 @@ public class ToDoFunction
         }
     }
 
-    [Function("DeleteToDoAsync")]
-    public async Task<IActionResult> DeleteToDoAsync([HttpTrigger(AuthorizationLevel.Anonymous, "delete", Route = "v2/todos/{id}")] HttpRequest req, Guid id)
+    [Function("UpdateToDoAsync")]
+    public async Task<IActionResult> UpdateToDoAsync([HttpTrigger(AuthorizationLevel.Anonymous, "delete", Route = "v2/todos/{id}")] HttpRequest req, Guid id)
     {
         try
         {

@@ -9,6 +9,7 @@ C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Ap
 C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.AssemblyInfoInputs.cache
 C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.AssemblyInfo.cs
 C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.sourcelink.json
 C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.App.AD959D57.Up2Date
 C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.dll
 C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\refint\ToDo.Application.dll
