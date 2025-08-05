@@ -1,0 +1,395 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8EB348D-D651-42DA-8EA4-A8E3C219CB45}|FunctionsApi\\FunctionsApi.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\functionsapi\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8EB348D-D651-42DA-8EA4-A8E3C219CB45}|FunctionsApi\\FunctionsApi.csproj|solutionrelative:functionsapi\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8EB348D-D651-42DA-8EA4-A8E3C219CB45}|FunctionsApi\\FunctionsApi.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\functionsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8EB348D-D651-42DA-8EA4-A8E3C219CB45}|FunctionsApi\\FunctionsApi.csproj|solutionrelative:functionsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\Infrastructure\\Migrations\\20250805093450_Created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20250805093450_Created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1106E8F-5234-4CBE-BF1D-D2410C55826E}|PlayGround\\PlayGround.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\playground\\playground.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1106E8F-5234-4CBE-BF1D-D2410C55826E}|PlayGround\\PlayGround.csproj|solutionrelative:playground\\playground.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797EC512-7C6B-4202-8895-1C704B542F9E}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{797EC512-7C6B-4202-8895-1C704B542F9E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68813FC2-88CA-4A60-8454-D3279D1807DF}|ToDo.Core\\ToDo.Core.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\todo.core\\todo.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{68813FC2-88CA-4A60-8454-D3279D1807DF}|ToDo.Core\\ToDo.Core.csproj|solutionrelative:todo.core\\todo.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\todo.application\\todo.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|solutionrelative:todo.application\\todo.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8EB348D-D651-42DA-8EA4-A8E3C219CB45}|FunctionsApi\\FunctionsApi.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\functionsapi\\functionsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C8EB348D-D651-42DA-8EA4-A8E3C219CB45}|FunctionsApi\\FunctionsApi.csproj|solutionrelative:functionsapi\\functionsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68813FC2-88CA-4A60-8454-D3279D1807DF}|ToDo.Core\\ToDo.Core.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\todo.core\\interfaces\\itodorespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68813FC2-88CA-4A60-8454-D3279D1807DF}|ToDo.Core\\ToDo.Core.csproj|solutionrelative:todo.core\\interfaces\\itodorespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797EC512-7C6B-4202-8895-1C704B542F9E}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\infrastructure\\persistence\\repositories\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797EC512-7C6B-4202-8895-1C704B542F9E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\repositories\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797EC512-7C6B-4202-8895-1C704B542F9E}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\infrastructure\\persistence\\context\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797EC512-7C6B-4202-8895-1C704B542F9E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\context\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8EB348D-D651-42DA-8EA4-A8E3C219CB45}|FunctionsApi\\FunctionsApi.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\functionsapi\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8EB348D-D651-42DA-8EA4-A8E3C219CB45}|FunctionsApi\\FunctionsApi.csproj|solutionrelative:functionsapi\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8EB348D-D651-42DA-8EA4-A8E3C219CB45}|FunctionsApi\\FunctionsApi.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\functionsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8EB348D-D651-42DA-8EA4-A8E3C219CB45}|FunctionsApi\\FunctionsApi.csproj|solutionrelative:functionsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8EB348D-D651-42DA-8EA4-A8E3C219CB45}|FunctionsApi\\FunctionsApi.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\functionsapi\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8EB348D-D651-42DA-8EA4-A8E3C219CB45}|FunctionsApi\\FunctionsApi.csproj|solutionrelative:functionsapi\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\todo.application\\dtos\\gettodoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|solutionrelative:todo.application\\dtos\\gettodoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\todo.application\\dtos\\createtodoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|solutionrelative:todo.application\\dtos\\createtodoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\todo.application\\dtos\\updatetodoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|solutionrelative:todo.application\\dtos\\updatetodoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\todo.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|solutionrelative:todo.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\todo.application\\services\\interfaces\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|solutionrelative:todo.application\\services\\interfaces\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\todo.application\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|solutionrelative:todo.application\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\todo.application\\validation\\updatetodoitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|solutionrelative:todo.application\\validation\\updatetodoitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\todo.application\\validation\\createtodoitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9854AB4E-3B43-487F-A180-FE48A64110E3}|ToDo.Application\\ToDo.Application.csproj|solutionrelative:todo.application\\validation\\createtodoitemvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68813FC2-88CA-4A60-8454-D3279D1807DF}|ToDo.Core\\ToDo.Core.csproj|c:\\users\\asus\\desktop\\todo\\todobackend\\todo.core\\entity\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68813FC2-88CA-4A60-8454-D3279D1807DF}|ToDo.Core\\ToDo.Core.csproj|solutionrelative:todo.core\\entity\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250805093450_Created.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\Infrastructure\\Migrations\\20250805093450_Created.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250805093450_Created.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\Infrastructure\\Migrations\\20250805093450_Created.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250805093450_Created.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:34:50.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayGround.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\PlayGround\\PlayGround.csproj",
+              "RelativeDocumentMoniker": "PlayGround\\PlayGround.csproj",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\PlayGround\\PlayGround.csproj",
+              "RelativeToolTip": "PlayGround\\PlayGround.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-05T09:17:07.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-05T09:13:10.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\FunctionsApi\\Program.cs",
+              "RelativeDocumentMoniker": "FunctionsApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\FunctionsApi\\Program.cs",
+              "RelativeToolTip": "FunctionsApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:05:10.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\FunctionsApi\\local.settings.json",
+              "RelativeDocumentMoniker": "FunctionsApi\\local.settings.json",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\FunctionsApi\\local.settings.json",
+              "RelativeToolTip": "FunctionsApi\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T08:14:37.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ToDo.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\ToDo.Application.csproj",
+              "RelativeDocumentMoniker": "ToDo.Application\\ToDo.Application.csproj",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\ToDo.Application.csproj",
+              "RelativeToolTip": "ToDo.Application\\ToDo.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-05T09:17:11.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ToDo.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Core\\ToDo.Core.csproj",
+              "RelativeDocumentMoniker": "ToDo.Core\\ToDo.Core.csproj",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Core\\ToDo.Core.csproj",
+              "RelativeToolTip": "ToDo.Core\\ToDo.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-05T09:17:31.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FunctionsApi",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\FunctionsApi\\FunctionsApi.csproj",
+              "RelativeDocumentMoniker": "FunctionsApi\\FunctionsApi.csproj",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\FunctionsApi\\FunctionsApi.csproj",
+              "RelativeToolTip": "FunctionsApi\\FunctionsApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-05T09:12:10.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IToDoRespository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Core\\Interfaces\\IToDoRespository.cs",
+              "RelativeDocumentMoniker": "ToDo.Core\\Interfaces\\IToDoRespository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Core\\Interfaces\\IToDoRespository.cs",
+              "RelativeToolTip": "ToDo.Core\\Interfaces\\IToDoRespository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:40:07.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ToDoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\Infrastructure\\Persistence\\Repositories\\ToDoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\ToDoRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\Infrastructure\\Persistence\\Repositories\\ToDoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\ToDoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:05:26.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ToDoDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\Infrastructure\\Persistence\\Context\\ToDoDBContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Context\\ToDoDBContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\Infrastructure\\Persistence\\Context\\ToDoDBContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Context\\ToDoDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:05:24.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\FunctionsApi\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "FunctionsApi\\Properties\\serviceDependencies.json",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\FunctionsApi\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "FunctionsApi\\Properties\\serviceDependencies.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T09:08:12.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\FunctionsApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FunctionsApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\FunctionsApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FunctionsApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T09:08:09.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "host.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\FunctionsApi\\host.json",
+              "RelativeDocumentMoniker": "FunctionsApi\\host.json",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\FunctionsApi\\host.json",
+              "RelativeToolTip": "FunctionsApi\\host.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T09:08:06.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetToDoItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\DTOs\\GetToDoItemDTO.cs",
+              "RelativeDocumentMoniker": "ToDo.Application\\DTOs\\GetToDoItemDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\DTOs\\GetToDoItemDTO.cs",
+              "RelativeToolTip": "ToDo.Application\\DTOs\\GetToDoItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:41:15.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateToDoItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\DTOs\\CreateToDoItemDTO.cs",
+              "RelativeDocumentMoniker": "ToDo.Application\\DTOs\\CreateToDoItemDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\DTOs\\CreateToDoItemDTO.cs",
+              "RelativeToolTip": "ToDo.Application\\DTOs\\CreateToDoItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:41:22.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateToDoItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\DTOs\\UpdateToDoItemDTO.cs",
+              "RelativeDocumentMoniker": "ToDo.Application\\DTOs\\UpdateToDoItemDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\DTOs\\UpdateToDoItemDTO.cs",
+              "RelativeToolTip": "ToDo.Application\\DTOs\\UpdateToDoItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:41:08.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "ToDo.Application\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "ToDo.Application\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:41:00.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IToDoService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\Services\\Interfaces\\IToDoService.cs",
+              "RelativeDocumentMoniker": "ToDo.Application\\Services\\Interfaces\\IToDoService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\Services\\Interfaces\\IToDoService.cs",
+              "RelativeToolTip": "ToDo.Application\\Services\\Interfaces\\IToDoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:40:47.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ToDoService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\Services\\ToDoService.cs",
+              "RelativeDocumentMoniker": "ToDo.Application\\Services\\ToDoService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\Services\\ToDoService.cs",
+              "RelativeToolTip": "ToDo.Application\\Services\\ToDoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:40:32.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateToDoItemValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\Validation\\UpdateToDoItemValidator.cs",
+              "RelativeDocumentMoniker": "ToDo.Application\\Validation\\UpdateToDoItemValidator.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\Validation\\UpdateToDoItemValidator.cs",
+              "RelativeToolTip": "ToDo.Application\\Validation\\UpdateToDoItemValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:40:25.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateToDoItemValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\Validation\\CreateToDoItemValidator.cs",
+              "RelativeDocumentMoniker": "ToDo.Application\\Validation\\CreateToDoItemValidator.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Application\\Validation\\CreateToDoItemValidator.cs",
+              "RelativeToolTip": "ToDo.Application\\Validation\\CreateToDoItemValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:40:19.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ToDoItem.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Core\\Entity\\ToDoItem.cs",
+              "RelativeDocumentMoniker": "ToDo.Core\\Entity\\ToDoItem.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\ToDo\\ToDoBackend\\ToDo.Core\\Entity\\ToDoItem.cs",
+              "RelativeToolTip": "ToDo.Core\\Entity\\ToDoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T08:21:13.508Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\bin\Debug\net8.0\ToDo.Application.deps.json
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\bin\Debug\net8.0\ToDo.Application.runtimeconfig.json
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\bin\Debug\net8.0\ToDo.Application.dll
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\bin\Debug\net8.0\ToDo.Application.pdb
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\bin\Debug\net8.0\ToDo.Core.dll
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\bin\Debug\net8.0\ToDo.Core.pdb
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.AssemblyInfo.cs
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.App.AD959D57.Up2Date
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.dll
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\refint\ToDo.Application.dll
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.pdb
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ToDo.Application.genruntimeconfig.cache
+C:\Users\Asus\Desktop\ToDo\ToDoBackend\ToDo.Application\obj\Debug\net8.0\ref\ToDo.Application.dll

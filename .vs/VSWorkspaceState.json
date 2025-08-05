@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ToDoBackend",
+    "\\ToDoBackend\\Infrastructure",
+    "\\ToDoBackend\\Infrastructure\\Persistence",
+    "\\ToDoBackend\\Infrastructure\\Persistence\\Repositories",
+    "\\ToDoBackend\\PlayGround",
+    "\\ToDoBackend\\ToDo.Application",
+    "\\ToDoBackend\\ToDo.Core"
+  ],
+  "PreviewInSolutionExplorer": false
+}
