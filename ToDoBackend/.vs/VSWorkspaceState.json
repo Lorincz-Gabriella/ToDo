@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FunctionsApi",
+    "\\ToDo.Application",
+    "\\ToDo.Application\\DTOs",
+    "\\ToDo.Application\\Services",
+    "\\ToDo.Core",
+    "\\ToDo.Core\\Entity",
+    "\\ToDo.Core\\Entity\\Enums",
+    "\\ToDo.Core\\Interfaces"
+  ],
+  "SelectedNode": "\\FunctionsApi\\FunctionsApi.csproj",
+  "PreviewInSolutionExplorer": false
+}

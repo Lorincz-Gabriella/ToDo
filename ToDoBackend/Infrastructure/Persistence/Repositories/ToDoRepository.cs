@@ -17,6 +17,7 @@ namespace Infrastructure.Persistence.Repositories
         public ToDoItem AddToDoToDB(ToDoItem toDoItem)
         {
             using var context=_dbContextFactory.CreateDbContext(); //using is ugyanezt csinalja ,mikor mar  nem kell meghivja a dispose() t
+            toDoItem.CreatedAt = DateTime.Now;
             context.ToDoItems.Add(toDoItem);
             context.SaveChanges();
             //context.Dispose(); garbage collectornak szolunk hogy a contexet szabaditsa fel ,nem varunk a program lefutasa vegeig
@@ -26,6 +27,7 @@ namespace Infrastructure.Persistence.Repositories
         public async Task<ToDoItem> AddToDoToDBAsync(ToDoItem toDoItem)
         {
             using var context = await _dbContextFactory.CreateDbContextAsync();
+            toDoItem.CreatedAt = DateTime.Now;
             await context.AddAsync(toDoItem);
             await context.SaveChangesAsync();
             return toDoItem;
@@ -84,6 +86,7 @@ namespace Infrastructure.Persistence.Repositories
         public bool UpdateToDo(ToDoItem toDoItem)
         {
             using var context= _dbContextFactory.CreateDbContext();
+            toDoItem.CreatedAt = DateTime.Now;
             var ToDo=context.ToDoItems.Update(toDoItem);
             if (ToDo == null)
             {
@@ -99,6 +102,7 @@ namespace Infrastructure.Persistence.Repositories
         public async Task<bool> UpdateToDoAsync(ToDoItem toDoItem)
         {
             using var context = await _dbContextFactory.CreateDbContextAsync();
+            toDoItem.CreatedAt = DateTime.Now;
             var ToDo = context.ToDoItems.Update(toDoItem);
             if (ToDo == null)
             {

@@ -41,14 +41,16 @@ namespace ToDo.Application.Services
             return  _mapper.Map<GetToDoItemDTO>(createdToDo);
         }
 
-        public bool DeleteToDo(Guid id)
+        public DeleteResponseDTO DeleteToDo(Guid id)
         {
-           return _repository.DeleteToDo(id);
+            var deleteDTO = new DeleteResponseDTO(_repository.DeleteToDo(id));
+            return deleteDTO;
         }
 
-        public async Task<bool> DeleteToDoAsync(Guid id)
+        public async Task<DeleteResponseDTO> DeleteToDoAsync(Guid id)
         {
-            return await _repository.DeleteToDoAsync(id);
+            var deleteDTO = new DeleteResponseDTO(await _repository.DeleteToDoAsync(id));
+            return deleteDTO;
         }
 
         public IEnumerable<GetToDoItemDTO> GetAllToDos()
@@ -83,21 +85,23 @@ namespace ToDo.Application.Services
             return _mapper.Map<GetToDoItemDTO>(ToDo);
         }
 
-        public bool UpdateToDo(Guid id, UpdateToDoItemDTO toDoItem)
+        public UpdateResponseDTO UpdateToDo(Guid id, UpdateToDoItemDTO toDoItem)
         {
 
             _updateValidator.ValidateAndThrow(toDoItem);
             var ToDoItem= _mapper.Map<ToDoItem>(toDoItem);
             ToDoItem.Id = id;
-            return _repository.UpdateToDo(ToDoItem);
+            var updateDTO = new UpdateResponseDTO(_repository.UpdateToDo(ToDoItem));
+            return updateDTO;
         }
 
-        public async Task<bool> UpdateToDoAsync(Guid id, UpdateToDoItemDTO toDoItem)
+        public async Task<UpdateResponseDTO> UpdateToDoAsync(Guid id, UpdateToDoItemDTO toDoItem)
         {
             _updateValidator.ValidateAndThrow(toDoItem);
             var ToDoItem = _mapper.Map<ToDoItem>(toDoItem);
             ToDoItem.Id = id;
-            return await _repository.UpdateToDoAsync(ToDoItem);
+            var updateDTO = new UpdateResponseDTO(await _repository.UpdateToDoAsync(ToDoItem));
+            return updateDTO;
         }
     }
 }

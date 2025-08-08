@@ -2,6 +2,7 @@ using AutoMapper;
 using Azure;
 using FluentValidation;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Azure.Functions.Worker;
@@ -33,6 +34,7 @@ public class ToDoFunction
         return new OkObjectResult("Welcome to Azure Functions!");
     }
 
+
     [Function("GetAllToDoItems")]
     //[OpenApiOperation(operationId :"",tags: ["ToDo"],Summary="",Description ="")]
     public IActionResult GetAllToDoItems([HttpTrigger(AuthorizationLevel.Anonymous, "get",Route="todos")] HttpRequest req)
@@ -58,7 +60,6 @@ public class ToDoFunction
         var item = _service.GetToDoById(id);
         return new OkObjectResult(item);
     }
-    //todos osszes todos/{id} egy bizonyos
 
     [Function("GetToDoByIdAsync")]
     public async Task<IActionResult> GetToDoByIdAsync([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "v2/todos/{id}")] HttpRequest req, Guid id)
@@ -67,6 +68,7 @@ public class ToDoFunction
         var item = await _service.GetToDoByIdAsync(id);
         return new OkObjectResult(item);
     }
+
 
     [Function("AddToDoToDB")]
     public async Task<IActionResult> AddToDoToDB([HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "todos")] HttpRequest req)
@@ -80,7 +82,10 @@ public class ToDoFunction
             {
                 var item = _service.AddToDoToDB(createDTO);
                 return new OkObjectResult(item);
-            }else { return new OkObjectResult("false"); }
+            }else 
+            {
+                return new BadRequestObjectResult("missing body parameter");
+            }
         }
         catch (ValidationException ex)
         {
@@ -108,7 +113,11 @@ public class ToDoFunction
                 var item = await _service.AddToDoToDBAsync(createDTO);
                 return new OkObjectResult(item);
             }
-            else { return new OkObjectResult("false"); };
+            else 
+            {
+                return new BadRequestObjectResult("missing body parameter");
+            }
+            ;
         }
         catch (ValidationException ex)
         {
@@ -124,24 +133,24 @@ public class ToDoFunction
     }
 
     [Function("DeleteToDo")]
-    public IActionResult DeleteToDo([HttpTrigger(AuthorizationLevel.Anonymous, "patch", Route = "todos/{id}")] HttpRequest req, Guid id)
+    public IActionResult DeleteToDo([HttpTrigger(AuthorizationLevel.Anonymous, "delete", Route = "todos/{id}")] HttpRequest req, Guid id)
     {
         _logger.LogInformation($"UpdateToDo with {id} processed a request ");
         var item = _service.DeleteToDo(id);
-        return new OkObjectResult("true");
+        return new OkObjectResult(item);
     }
 
     [Function("DeleteToDoAsync")]
-    public async Task<IActionResult> DeleteToDoAsync([HttpTrigger(AuthorizationLevel.Anonymous, "patch", Route = "v2/todos/{id}")] HttpRequest req, Guid id)
+    public async Task<IActionResult> DeleteToDoAsync([HttpTrigger(AuthorizationLevel.Anonymous, "delete", Route = "v2/todos/{id}")] HttpRequest req, Guid id)
     {
         _logger.LogInformation($"UpdateToDo with {id} processed a request ");
         var item = await _service.DeleteToDoAsync(id);
-        return new OkObjectResult("true");
+        return new OkObjectResult(item);
     }
 
 
     [Function("UpdateToDo")]
-    public async Task<IActionResult> UpdateToDo([HttpTrigger(AuthorizationLevel.Anonymous, "delete", Route = "todos/{id}")] HttpRequest req, Guid id)
+    public async Task<IActionResult> UpdateToDo([HttpTrigger(AuthorizationLevel.Anonymous, "patch", Route = "todos/{id}")] HttpRequest req, Guid id)
     {
         try
         {
@@ -151,11 +160,11 @@ public class ToDoFunction
             {
                 _logger.LogInformation($"DeleteToDo with details:({requestBody}) and with id {id} processed a request ");
                 var item = _service.UpdateToDo(id, updateDTO);
-                return new OkObjectResult("true");
+                return new OkObjectResult(item);
             }
             else
             {
-                return new OkObjectResult("false");
+                return new BadRequestObjectResult("missing body parameter");
             }
             }
         catch (Exception ex)
@@ -168,7 +177,7 @@ public class ToDoFunction
     }
 
     [Function("UpdateToDoAsync")]
-    public async Task<IActionResult> UpdateToDoAsync([HttpTrigger(AuthorizationLevel.Anonymous, "delete", Route = "v2/todos/{id}")] HttpRequest req, Guid id)
+    public async Task<IActionResult> UpdateToDoAsync([HttpTrigger(AuthorizationLevel.Anonymous, "patch", Route = "v2/todos/{id}")] HttpRequest req, Guid id)
     {
         try
         {
@@ -178,9 +187,9 @@ public class ToDoFunction
             {
                 _logger.LogInformation($"DeleteToDo with details:({requestBody}) and with id {id} processed a request ");
                 var item = await _service.UpdateToDoAsync(id, updateDTO);
-                return new OkObjectResult("true");
+                return new OkObjectResult(item);
             }
-            else return new OkObjectResult("false");
+            else return new BadRequestObjectResult("missing body parameter");
         }
         catch (Exception ex)
         {
